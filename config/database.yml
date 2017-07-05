@@ -57,5 +57,5 @@ staging:
   <<: *default
   database: mysql_sample_staging
   username: root
-  password: root
+  password: 
   socket: /var/lib/mysql/mysql.sock
