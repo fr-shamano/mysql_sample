@@ -52,3 +52,10 @@ production:
   database: mysql_sample_production
   username: mysql_sample
   password: <%= ENV['MYSQL_SAMPLE_DATABASE_PASSWORD'] %>
+
+staging:
+  <<: *default
+  database: mysql_sample_staging
+  username: root
+  password: root
+  socket: /var/lib/mysql/mysql.sock
