@@ -14,3 +14,6 @@
 
 # settings
 config/redis.yml
+
+config/database.yml
+vendor/bundle/
